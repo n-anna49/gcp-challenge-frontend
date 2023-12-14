@@ -1,0 +1,17 @@
+.doc-container {
+	max-width: 770px;
+	margin: 0 auto;
+	padding: 20px;
+}
+p, li {
+	font-size: 13px;
+}
+h6 {
+	text-decoration: underline;
+}
+.bold-text {
+	font-weight: bold;
+}
+.text-align-left {
+	text-align: left;
+}
