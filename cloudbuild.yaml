@@ -1,0 +1,3 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['cp', '-r', 'index.html', 'resume.css', 'counter.js', 'gs://staticwebresume/']
