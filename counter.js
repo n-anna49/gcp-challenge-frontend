@@ -1,7 +1,7 @@
 fetch('https://mygateway-6blow143.wl.gateway.dev/', {
      method: 'POST',
      headers: {
-       'Content-Type': 'application/json'
+       'Content-Type': 'application/json',
      },
 })
   .then(response => {
