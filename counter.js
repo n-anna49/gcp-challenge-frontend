@@ -1,9 +1,4 @@
-fetch('https://mygateway-6blow143.wl.gateway.dev/', {
-     method: 'POST',
-     headers: {
-       'Content-Type': 'application/json',
-     },
-})
+fetch('https://mygateway-6blow143.wl.gateway.dev/')
   .then(response => {
     return response.json();
   })
