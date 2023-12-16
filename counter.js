@@ -4,7 +4,7 @@ fetch('https://mygateway-6blow143.wl.gateway.dev/')
   })
   .then(data => {
     const visitorCount = data['Visitor Count'];
-	const dataContainer = document.getElementById('visitor-count');
+    const dataContainer = document.getElementById('visitor-count');
     dataContainer.innerHTML = `${visitorCount}`;
   })
   .catch(error => {
